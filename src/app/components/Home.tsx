@@ -23,7 +23,6 @@ export function Home() {
             onClick={() => navigate("/hilfe-anfragen")}
           >
             <div className="flex items-center justify-center gap-3">
-              <HandHeart size={32} />
               <span>Hilfe anfragen</span>
             </div>
           </WireframeButton>
@@ -33,7 +32,6 @@ export function Home() {
             onClick={() => navigate("/ausleihen")}
           >
             <div className="flex items-center justify-center gap-3">
-              <Package size={24} />
               <span>Etwas ausleihen</span>
             </div>
           </WireframeButton>
@@ -43,7 +41,6 @@ export function Home() {
             onClick={() => navigate("/anlaesse")}
           >
             <div className="flex items-center justify-center gap-3">
-              <Calendar size={24} />
               <span>Anlässe</span>
             </div>
           </WireframeButton>
@@ -52,7 +49,6 @@ export function Home() {
             variant="secondary"
           >
             <div className="flex items-center justify-center gap-3">
-              <Users size={24} />
               <span>Nachbarschaftshilfe anbieten</span>
             </div>
           </WireframeButton>
