@@ -9,7 +9,6 @@ export function BottomNav() {
     { icon: Home, label: "Home", path: "/" },
     { icon: Search, label: "Suche", path: "/ausleihen" },
     { icon: Calendar, label: "Kalender", path: "/anlaesse" },
-    { icon: MessageSquare, label: "Nachricht", path: "/" },
     { icon: User, label: "Profil", path: "/profil" },
   ];
 
